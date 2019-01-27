@@ -1,0 +1,47 @@
+nav{
+	background-color: darkorange;
+	position: relative;
+	width: 100%;
+	height: 50px;
+	top: 0;
+	left: 0;
+	margin-bottom: 10px;
+	z-index: 100;
+}
+.name{
+	position: relative;
+	color: blue;
+	font-size: 25px;
+	font-style: oblique;
+	font-weight: bold; 	
+ }
+ .menu{
+    position: relative;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    font-size: 20px;
+ }
+ .menu:hover{
+ 	cursor: pointer;
+ 	background-color: white;
+ }
+ .search{
+ 	position: relative;
+ 	float: right;
+ 	margin: 20px;
+ 	margin-top: 12px;
+ 	width: 200px;
+ 	border: none;
+ 	border-radius: 60px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ 	background-color: #8e5208;
+ 	outline: none; 
+ 	
+ }
+ .wrapper{
+ }
